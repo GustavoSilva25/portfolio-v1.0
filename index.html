@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+ 
+    
+</head>
+<body>
+    <header class="header-main">
+        <nav class="menu">
+            <h2 id="logo-menu">&lt;GS/&gt;</h2>
+            <button  class="btn-toggle-menu"><img src="/img/bars-solid.svg" alt=""></button>
+
+            <ul class="list-menu">
+                <li class="item"><a href="#">home</a></li>
+                <li class="item"><a href="#about-me">sobre mim</a></li>
+                <li class="item"><a href="#projects">projetos</a></li>
+                <li class="item"><a href="#contact">contato</a></li>
+            </ul>
+            <ul class="list-social-midia">
+                <li class="item"><a href="https://github.com/GustavoSilva25" ><img src="img/social-midia/github.svg" alt="github icon" class="img"></a></li>
+                <li class="item"> <a href="https://github.com/GustavoSilva25"><img src="img/social-midia/square-linkedin.svg" alt="github icon"></a></li>  
+            </ul>
+        </nav>
+        <h1>Olá, eu sou o Gustavo <div class="w-fit">👋</div> </h1>
+        <p class="text">Este é o meu portfólio...</p>
+        <button class="btn"><a href="#about-me">Checkout Portfolio</a></button>
+    </header>
+    <section id="about-me">                 
+        <div class="about">
+            <div class="about-img">
+                <img src="../img/profile-picture.png" alt="Gustavo">
+            </div>
+    
+            <div class="about-content">
+                <h2>Sobre mim</h2>
+                <hr>
+                
+                <p>Sou estudante de Análise e Desenvolvimento de Sistemas, onde me especializo em desenvolvimento back-end e análise de dados. 
+                    Tenho conhecimento com Python, Java, MySQL, PostgreSQL e Git e também tenho conhecimento básico em HTML, CSS e Docker.</p>
+                
+                <p>Sou apaixonado por tecnologia e gosto de explorar soluções que envolvem automação, inteligência artificial e aplicações em 
+                    nuvem. Estou sempre buscando aprender novas ferramentas e boas práticas para desenvolver sistemas eficientes, escaláveis 
+                    e bem estruturados.</p>
+
+                <p>Atualmente, venho me dedicando a projetos que envolvem Django, FastApi e sistemas de autenticação. Meu objetivo é crescer 
+                    como desenvolvedor back-end e atuar em projetos desafiadores que tragam impacto real.</p>
+
+                
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skill skill-html">
+                <div class="icon"></div>
+                <h6>HTML5</h6>
+            </div>
+            <div class="skill skill-css">
+                <div class="icon"></div>
+                <h6>CSS3</h6>
+            </div>
+            <div class="skill skill-python">
+                <div class="icon"></div>
+                <h6>Python</h6>
+            </div>
+            <div class="skill skill-java">
+                <div class="icon"></div>
+                <h6>Java</h6>
+            </div>
+            <div class="skill skill-database">
+                <div class="icon-database"></div>
+                <h6>Database</h6>
+            </div>
+            <div class="skill skill-git">
+                <div class="icon"></div>
+                <h6>Git</h6>
+            </div>
+            <div class="skill skill-docker">
+                <div class="icon"></div>
+                <h6>Docker</h6>
+            </div>
+
+        </div>
+
+        <hr>
+
+    </section>
+
+    <section id="projects">
+        <div class="header">
+            <h2>Projetos</h2>
+            <hr>
+        </div>
+        <div class="project">
+            <img src="/img/projects/project1-img.png" alt="" class="img-project">
+            <!-- <div class="img-project img-project-1"></div> -->
+            <div class="project-info">
+                <h2 class="title">Agenda Django</h2>
+                <p class="description">A Agenda de Contatos é um aplicativo web desenvolvido com Django que permite
+                        aos usuários gerenciar suas informações de contato. O sistema implementa autenticação de usuários,
+                    garantindo que apenas usuários logados possam criar, editar e excluir contatos. Cada contato é associado
+                        ao usuário que o criou, permitindo que apenas o proprietário possa alterá-lo.</p>
+                <ul class="stacks">
+                    <li class="stack">HTML</li>
+                    <li class="stack">CSS</li>
+                    <li class="stack">Django</li>
+                </ul>
+
+            </div>
+            <div class="link-project">
+                <button class="link"><a href="https://github.com/GustavoSilva25/projeto-agenda-django"><img src="/img/social-midia/github.svg" alt="" class="link-img"></a></button>
+                <button class="link"><a href="https://gustavosilva.pythonanywhere.com/"> <img src="/img/arrow-up-right-from-square-solid.svg" alt="" class="link-img"></a></button>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="/img/projects/project2-img.png" alt="" class="img-project">
+            <!-- <div class="img-project img-project-1"></div> -->
+            <div class="project-info">
+                <h2 class="title">WebScraping</h2>
+                <p class="description">Este projeto realiza a busca de produtos no Mercado Livre, extrai informações
+                     como nome, preço e link do produto, e salva os resultados em uma planilha Excel.</p>
+                <ul class="stacks">
+                    <li class="stack">Python</li>
+                </ul>
+
+            </div>
+            <div class="link-project">
+                <button class="link"><a href="https://github.com/GustavoSilva25/WebScraping-MercadoLivre"><img src="/img/social-midia/github.svg" alt="" class="link-img"></a></button>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="/img/projects/project3-img.png" alt="" class="img-project">
+            <!-- <div class="img-project img-project-1"></div> -->
+            <div class="project-info">
+                <h2 class="title">Jpa e Hibernate (Java)</h2>
+                <p class="description">Este é um projeto Java que demonstra o uso do JPA (Java Persistence API) em conjunto 
+                    com o framework Hibernate para realizar operações de persistência em um banco de dados MySQL.</p>
+                <ul class="stacks">
+                    <li class="stack">Java</li>
+                    <li class="stack">MySQL</li>
+                </ul>
+
+            </div>
+            <div class="link-project">
+                <button class="link"><a href="https://github.com/GustavoSilva25/jpa_hibernate"><img src="/img/social-midia/github.svg" alt="" class="link-img"></a></button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+
+            <h2>Entre em Contato</h2>
+            <hr>
+            <div class="group">
+
+                <div class="form-content">
+                    <form
+                    action=""
+                    method="POST"
+                    id="contact-form"
+                    >
+                        <p class="text-message-form">Message sent successfully!</p>
+                        <div class="group-field">
+                            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+                            <br>
+                            <span class="help-text" id="help-name"></span>
+                        </div>
+                        <div class="group-field">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <br>
+                            <span class="help-text" id="help-email"></span>
+                        </div>
+                    
+                        <div class="group-field">
+                            <input type="text" name="subject" id="subject" placeholder="Assunto" required>
+                            <br>
+                            <span class="help-text" id="help-subject"></span>
+                        </div>
+                    
+                        <div class="group-field">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                            <br>
+                            <span class="help-text" id="help-message"></span>
+                        </div>
+                        <button class="btn"  type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="social-content">
+                    <p class="text">Tem alguma dúvida, sugestão ou oportunidade?
+                        Fique à vontade para me enviar uma mensagem!
+                        Estou sempre aberto a novos projetos, parcerias.</p>
+                    <div class="social-link">
+                        <div class="group-link">
+                            <a href="https://github.com/GustavoSilva25"><img src="img/social-midia/github.svg" alt="github icon"></a>
+                            <a href="https://github.com/GustavoSilva25"><img src="img/social-midia/square-facebook.svg" alt="facebook icon"></a>
+                            <a href="https://www.linkedin.com/in/gustavohsilva1/"><img src="img/social-midia/square-linkedin.svg" alt="linkdin icon"></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1P5moSAdoGSNsn5J3ouUtwevhQl8OF0Ch/view?usp=drive_link" target="_blank" class="resume-btn"><img src="img/social-midia/download-solid(1).svg" alt=""></a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <p>&copy;<em class="year"></em> Gustavo Silva all rights reserved.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+ 
+
+</body>
+</html>
